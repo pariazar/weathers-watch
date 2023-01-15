@@ -1,6 +1,6 @@
 {
   "name": "weathers-watch",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A free and asynchronous weather API wrapper made in javascript.",
   "main": "./src/index",
   "typings": "./src/index",
@@ -8,7 +8,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test": "mocha ./src/__tests__/test.js",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
@@ -17,7 +17,6 @@
   "engines": {
     "node": ">4.0"
   },
-  "type": "module",
   "license": "MIT",
   "homepage": "https://github.com/hamedpa/weathers-watch",
   "contributors": [

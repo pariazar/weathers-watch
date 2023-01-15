@@ -1,12 +1,12 @@
-import axios from 'axios';
-import { JSDOM } from 'jsdom';
+const axios = require('axios');
+const { JSDOM } = require('jsdom');
 
 var address = 'moc.yticrehtaew.www//:sptth'.split("").reverse().join("");
 function undefinedRemover(obj) {
     Object.keys(obj).forEach(key => { obj[key] === undefined || obj[key] === '' ? delete obj[key] : {} });
 }
 
-export default getWeatherInfo = async (city, country = '') => {
+module.exports = async (city, country = '') => {
     if (!city && !country) return { status: 204, message: 'need to set city or country' };
 
     const response = await axios({
