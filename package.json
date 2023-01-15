@@ -1,12 +1,8 @@
 {
   "name": "weathers-watch",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A free and asynchronous weather API wrapper made in javascript.",
   "main": "./src/index",
-  "typings": "./src/index",
-  "files": [
-    "lib/**/*"
-  ],
   "scripts": {
     "test": "mocha ./src/__tests__/test.js",
     "build": "tsc",
