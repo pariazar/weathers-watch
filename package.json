@@ -1,6 +1,6 @@
 {
   "name": "weathers-watch",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A free and asynchronous weather API wrapper made in javascript.",
   "main": "./src/index",
   "scripts": {
