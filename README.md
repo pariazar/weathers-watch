@@ -55,26 +55,19 @@ console.log(weatherResult);
   currentWeather: {
     temperature: '4°C',
     dewPoint: '2°C',
-    barometer: '99.6 kPa',
-    wind: 'SSW 15 km/h',
+    barometer: '98.4 kPa',
+    wind: 'NNW 15 km/h',
     humidity: '86.8 %',
     visibility: 'n/a',
-    time: 'Updated Jan 15, 2023 8:20 PM'
+    time: 'Updated Jan 16, 2023 08:50 AM'
   },
   forecastSummary: [
     {
       day: 'Today',
-      date: 'Jan 15th',
-      result: 'Mostly Sunny',
-      min: '6°C',
-      max: undefined
-    },
-    {
-      day: 'Monday',
       date: 'Jan 16th',
       result: 'Mostly Cloudy',
       min: '3°C',
-      max: '1°C'
+      max: undefined
     },
     {
       day: 'Tuesday',
@@ -96,41 +89,33 @@ console.log(weatherResult);
       result: 'Mix of Cloud and Sun',
       min: '2°C',
       max: '1°C'
+    },
+    {
+      day: 'Friday',
+      date: 'Jan 20th',
+      result: 'Mix of Cloud and Sun',
+      min: '3°C',
+      max: '-2°C'
     }
   ],
   forecastDetails: [
     {
-      date: 'Sunday, January 15th, 2023',
-      results: [
-        {
-          time: 'Sunday Evening',
-          forecast: 'Clear with cloudy periods. Windy at times.',
-          temperature: 'Temperature: 3°C'
-        }
-      ]
-    },
-    {
       date: 'Monday, January 16th, 2023',
       results: [
         {
-          time: 'Overnight',
-          forecast: 'Cloudy with showers likely. Showers possibly mixed with wet flurries. 3 to 6 mm of rain.',
-          temperature: undefined
-        },
-        {
           time: 'Monday Morning',
           forecast: 'Cloudy with a few showers or wet flurries. 4 to 9 mm of rain. Windy at times.',
-          temperature: 'Temperature: 2°C'
+          temperature: '2°C'
         },
         {
           time: 'Monday Afternoon',
           forecast: 'Cloudy with a slight chance of showers. Showers possibly mixed with wet flurries. Windy at times.',
-          temperature: 'Temperature: 3°C'
+          temperature: '3°C'
         },
         {
           time: 'Monday Evening',
           forecast: 'Cloudy with clear periods. Windy at times.',
-          temperature: 'Temperature: 1°C'
+          temperature: '1°C'
         }
       ]
     },
@@ -145,17 +130,17 @@ console.log(weatherResult);
         {
           time: 'Tuesday Morning',
           forecast: 'Cloudy.',
-          temperature: 'Temperature: -1°C'
+          temperature: '-1°C'
         },
         {
           time: 'Tuesday Afternoon',
           forecast: 'A mix of cloud and sun.',
-          temperature: 'Temperature: 1°C'
+          temperature: '1°C'
         },
         {
           time: 'Tuesday Evening',
           forecast: 'Clear with cloudy periods.',
-          temperature: 'Temperature: -2°C'
+          temperature: '-2°C'
         }
       ]
     },
@@ -170,17 +155,17 @@ console.log(weatherResult);
         {
           time: 'Wednesday Morning',
           forecast: 'Cloudy with sunny periods with a slight chance of flurries. Windy at times.',
-          temperature: 'Temperature: 0°C'
+          temperature: '0°C'
         },
         {
           time: 'Wednesday Afternoon',
           forecast: 'Cloudy with sunny periods with a slight chance of showers. Showers possibly mixed with wet flurries. Windy at times.',
-          temperature: 'Temperature: 3°C'
+          temperature: '3°C'
         },
         {
           time: 'Wednesday Evening',
           forecast: 'Cloudy with clear periods with a slight chance of flurries or showers. Windy.',
-          temperature: 'Temperature: 1°C'
+          temperature: '1°C'
         }
       ]
     },
@@ -195,17 +180,17 @@ console.log(weatherResult);
         {
           time: 'Thursday Morning',
           forecast: 'Sunny with cloudy periods. Windy.',
-          temperature: 'Temperature: 1°C'
+          temperature: '1°C'
         },
         {
           time: 'Thursday Afternoon',
           forecast: 'A mix of cloud and sun. Windy at times.',
-          temperature: 'Temperature: 2°C'
+          temperature: '2°C'
         },
         {
           time: 'Thursday Evening',
           forecast: 'A mix of cloudy and clear skies. Windy at times.',
-          temperature: 'Temperature: 1°C'
+          temperature: '1°C'
         }
       ]
     },
@@ -220,17 +205,17 @@ console.log(weatherResult);
         {
           time: 'Friday Morning',
           forecast: 'Sunny.',
-          temperature: 'Temperature: 1°C'
+          temperature: '1°C'
         },
         {
           time: 'Friday Afternoon',
           forecast: 'Sunny.',
-          temperature: 'Temperature: 3°C'
+          temperature: '3°C'
         },
         {
           time: 'Friday Evening',
           forecast: 'A mix of cloudy and clear skies.',
-          temperature: 'Temperature: -0°C'
+          temperature: '-0°C'
         }
       ]
     },
@@ -245,17 +230,17 @@ console.log(weatherResult);
         {
           time: 'Saturday Morning',
           forecast: 'Cloudy with a slight chance of showers. Windy at times.',
-          temperature: 'Temperature: 3°C'
+          temperature: '3°C'
         },
         {
           time: 'Saturday Afternoon',
           forecast: 'Cloudy with a chance of showers. Showers possibly mixed with wet flurries. 1 to 3 mm of rain. Windy at times.',
-          temperature: 'Temperature: 4°C'
+          temperature: '4°C'
         },
         {
           time: 'Saturday Evening',
           forecast: 'Cloudy with a chance of showers. 1 to 3 mm of rain. Windy at times.',
-          temperature: 'Temperature: 3°C'
+          temperature: '3°C'
         }
       ]
     },
@@ -270,7 +255,7 @@ console.log(weatherResult);
         {
           time: 'Sunday Morning',
           forecast: 'Cloudy with sunny periods.',
-          temperature: 'Temperature: 4°C'
+          temperature: '4°C'
         }
       ]
     }

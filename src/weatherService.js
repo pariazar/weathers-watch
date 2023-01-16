@@ -106,7 +106,7 @@ module.exports = async (city, country = '') => {
             forecastDayResult.results.push({
                 time: forecastDay ? forecastDay : 'Overnight',
                 forecast: forecastDetailResults[i].textContent,
-                temperature: forecastTemperature
+                temperature: forecastTemperature ? forecastTemperature.split(":")[1].trim() : undefined
             });
 
     }
