@@ -9,25 +9,25 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
-  "author": "hamedPa",
+  "author": "pariazar",
   "engines": {
     "node": ">4.0"
   },
   "license": "MIT",
-  "homepage": "https://github.com/hamedpa/weathers-watch",
+  "homepage": "https://github.com/pariazar/weathers-watch",
   "contributors": [
     {
-      "name": "HamedPa",
-      "email": "hamedpa21@gmail.com",
-      "url": "https://github.com/hamedpa"
+      "name": "pariazar",
+      "email": "hamedpa19@gmail.com",
+      "url": "https://github.com/pariazar"
     }
   ],
   "bugs": {
-    "url": "https://github.com/hamedpa/weathers-watch/issues/new"
+    "url": "https://github.com/pariazar/weathers-watch/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hamedpa/weathers-watch"
+    "url": "https://github.com/pariazar/weathers-watch"
   },
   "devDependencies": {
     "@types/jest": "^29.2.5",
